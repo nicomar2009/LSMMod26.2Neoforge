@@ -34,8 +34,17 @@ Generador: `tools/create_school_inverted_slopes.py`; comprobación estática: `t
 
 ## Copias elevadas ocho píxeles
 
-`school_inverted_slope_flight_raised_1..6` son seis bloques nuevos, cada uno duplicado exactamente de la pieza `school_inverted_slope_flight_1..6` del mismo número. Todos los vértices del modelo y la colisión se trasladan +8 píxeles en Y; no cambia la pendiente, forma, ancho, profundidad, UV ni textura. No tienen baranda. La tapa plana de las copias está en Y=24 px (16+8), y su primer borde inclinado en Y=8 px.
+Los bordes inclinados de `school_inverted_slope_flight_raised_1..6` y `school_inverted_slope_split_raised_1..4` están exactamente +8 píxeles en Y respecto a las piezas originales. Se conservan la pendiente, el ancho, la profundidad, las caras, UV y texturas, sin baranda. Únicamente las tapas planas se ajustan al límite entero del bloque superior:
 
-Usa la misma tabla de alturas de celda y orientación que las seis piezas originales: 0, -1, -2, -2, -3, -4 desde el extremo superior. El desplazamiento de medio bloque ya está incluido en el modelo; no cambies la altura de colocación para conseguir esos ocho píxeles. Colocadas en una fila vecina al grupo original, sus caras inclinadas quedan exactamente ocho píxeles por encima, como en la referencia. Los dos grupos tienen ítems, registros y drops independientes.
+| Familia | Piezas | Tapa local Y | Cambio desde la copia de 24 px |
+| --- | --- | --- | --- |
+| flight | 1, 4, 5 | 16 px | −8 px |
+| flight | 2, 3, 6 | 32 px | +8 px |
+| split | 1, 3 | 16 px | −8 px |
+| split | 2, 4 | 32 px | +8 px |
 
-Generador: `tools/create_school_raised_inverted_slopes.py`; verificación: `tools/check_school_raised_inverted_slopes.py`; layout: `tools/school_raised_inverted_slope_layout.json`. Se comprueba la traslación exacta en cuatro orientaciones y la igualdad de caras, UV y materiales (48 estados nuevos), además de la regresión de las diez piezas originales. Sin compilación ni prueba Minecraft.
+En split se aplica el remate por parejas a ambos lados del soporte de tres columnas. La colisión utiliza la misma altura superior que cada modelo, conservando el contorno de selección simple separado de la colisión.
+
+Usa la tabla de colocación de las piezas originales: filas 0, -1, -2, -2, -3, -4 para flight; filas 0, -1, -4, -5 en columnas 0, 1, 5, 6 para split. No cambies la altura de colocación para conseguir el desplazamiento: ya está en los modelos. Deja libres las celdas ocupadas por las extensiones hacia arriba. Los ítems y drops son independientes de los originales.
+
+Generador: `tools/create_school_raised_inverted_slopes.py`; verificación: `tools/check_school_raised_inverted_slopes.py`; layout: `tools/school_raised_inverted_slope_layout.json`. Se verifican los 80 estados elevados: tapas, traslación del perfil en las cuatro orientaciones, UV/caras/materiales y colisión. Regresión de las piezas originales y con baranda. Sin compilación ni prueba Minecraft.
