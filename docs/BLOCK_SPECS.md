@@ -277,3 +277,6 @@ double_school_entrance: nueva puerta doble independiente de 3×3 bloques (48×48
 
 
 2026-10-10 — Se completa únicamente school_inverted_slope_split_raised con extra_1..3, columnas 2/3/4, filas -2/-3/-3, tapas 32/32/16 px. Perfil elevado +8 px continuo con las cuatro piezas existentes, pendiente 5/7 por columna, misma pared clara y colisión. Registros/ítems/drops independientes; 24 estados nuevos y regresión de invertidos/elevados comprobados estáticamente. Publicación en master autorizada, sin compilar ni probar Minecraft.
+
+
+2026-10-10 — school_shield reemplaza el suelo 3×3 por un slab 4×4 de 8 px de alto; 16 piezas colocadas con un ítem, controlador (1,1), retirada conjunta y drop único. 64 estados, dieciséis texturas vanilla 16×16 con classroom_floor, borde dorado y emblema redibujado sin encabezado. Generador/check/preview actualizados; montajes anteriores deben recolocarse. Detalles docs/SCHOOL_SHIELD.md. Verificación estática, sin compilar ni probar Minecraft; publicación autorizada en master.

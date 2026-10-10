@@ -22,12 +22,12 @@ import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
-/** A single placement creates the complete 3x3 floor crest, centered on the clicked block. */
+/** A single placement creates the complete 4x4 slab crest, centered on the clicked block. */
 public class SchoolShieldBlock extends Block {
     public static final EnumProperty<Direction> FACING = BlockStateProperties.HORIZONTAL_FACING;
-    public static final IntegerProperty COLUMN = IntegerProperty.create("column", 0, 2);
-    public static final IntegerProperty ROW = IntegerProperty.create("row", 0, 2);
-    private static final VoxelShape SHAPE = Block.box(0, 0, 0, 16, 16, 16);
+    public static final IntegerProperty COLUMN = IntegerProperty.create("column", 0, 3);
+    public static final IntegerProperty ROW = IntegerProperty.create("row", 0, 3);
+    private static final VoxelShape SHAPE = Block.box(0, 0, 0, 16, 8, 16);
 
     public SchoolShieldBlock(Properties properties) {
         super(properties);
@@ -46,8 +46,8 @@ public class SchoolShieldBlock extends Block {
         BlockPos origin = context.getClickedPos();
         Direction facing = context.getHorizontalDirection();
         Player player = context.getPlayer();
-        for (int row = 0; row < 3; row++) {
-            for (int column = 0; column < 3; column++) {
+        for (int row = 0; row < 4; row++) {
+            for (int column = 0; column < 4; column++) {
                 BlockPos target = tile(origin, facing, column, row);
                 if (!level.getWorldBorder().isWithinBounds(target) || level.isOutsideBuildHeight(target)
                         || !level.hasChunkAt(target) || !level.getBlockState(target).canBeReplaced(context)
@@ -64,16 +64,16 @@ public class SchoolShieldBlock extends Block {
         super.setPlacedBy(level, pos, state, placer, stack);
         if (level.isClientSide()) return;
         Direction facing = state.getValue(FACING);
-        // Placement, like a bed: the item places the center and creates all eight other tiles immediately.
-        for (int row = 0; row < 3; row++) {
-            for (int column = 0; column < 3; column++) {
+        // Placement, like a bed: the item places the center and creates all fifteen other tiles immediately.
+        for (int row = 0; row < 4; row++) {
+            for (int column = 0; column < 4; column++) {
                 if (column == 1 && row == 1) continue;
                 level.setBlock(tile(pos, facing, column, row), state.setValue(COLUMN, column)
                         .setValue(ROW, row), Block.UPDATE_CLIENTS);
             }
         }
-        for (int row = 0; row < 3; row++) {
-            for (int column = 0; column < 3; column++) {
+        for (int row = 0; row < 4; row++) {
+            for (int column = 0; column < 4; column++) {
                 level.updateNeighborsAt(tile(pos, facing, column, row), this);
             }
         }
@@ -115,8 +115,8 @@ public class SchoolShieldBlock extends Block {
         BlockPos origin = center(pos, state);
         Direction facing = state.getValue(FACING);
         boolean complete = true;
-        for (int row = 0; row < 3; row++) {
-            for (int column = 0; column < 3; column++) {
+        for (int row = 0; row < 4; row++) {
+            for (int column = 0; column < 4; column++) {
                 BlockPos target = tile(origin, facing, column, row);
                 if (!level.hasChunkAt(target)) {
                     level.scheduleTick(pos, this, 20);
@@ -131,8 +131,8 @@ public class SchoolShieldBlock extends Block {
     private void dismantle(Level level, BlockPos origin, Direction facing, boolean drop) {
         // Only the controller has a loot drop. Clear it first, then only matching satellite tiles.
         if (matches(level.getBlockState(origin), facing, 1, 1)) level.destroyBlock(origin, drop);
-        for (int row = 0; row < 3; row++) {
-            for (int column = 0; column < 3; column++) {
+        for (int row = 0; row < 4; row++) {
+            for (int column = 0; column < 4; column++) {
                 BlockPos target = tile(origin, facing, column, row);
                 if (matches(level.getBlockState(target), facing, column, row)) {
                     level.setBlock(target, Blocks.AIR.defaultBlockState(), Block.UPDATE_ALL | Block.UPDATE_SUPPRESS_DROPS);
@@ -148,8 +148,8 @@ public class SchoolShieldBlock extends Block {
             // When the mined tile is the controller, vanilla handles its single drop.
             if (!origin.equals(pos)) dismantle(level, origin, state.getValue(FACING), !player.isCreative());
             else {
-                for (int row = 0; row < 3; row++) {
-                    for (int column = 0; column < 3; column++) {
+                for (int row = 0; row < 4; row++) {
+                    for (int column = 0; column < 4; column++) {
                         if (column == 1 && row == 1) continue;
                         BlockPos target = tile(origin, state.getValue(FACING), column, row);
                         if (matches(level.getBlockState(target), state.getValue(FACING), column, row)) {

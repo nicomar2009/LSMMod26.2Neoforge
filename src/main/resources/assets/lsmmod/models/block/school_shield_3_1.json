@@ -2,7 +2,7 @@
   "parent": "minecraft:block/block",
   "textures": {
     "floor": "lsmmod:block/classroom_floor",
-    "crest": "lsmmod:block/school_shield_1_0",
+    "crest": "lsmmod:block/school_shield_3_1",
     "particle": "lsmmod:block/classroom_floor"
   },
   "elements": [
