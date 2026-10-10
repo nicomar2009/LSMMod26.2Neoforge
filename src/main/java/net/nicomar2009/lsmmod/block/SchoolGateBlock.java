@@ -30,13 +30,13 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
-/** A 5x3 double gate, controlled by its bottom center cell. Both leaves swing together. */
+/** A 6x4 double gate, controlled by its bottom center cell. Both leaves swing together. */
 public class SchoolGateBlock extends Block {
     public static final EnumProperty<Direction> FACING = BlockStateProperties.HORIZONTAL_FACING;
     public static final BooleanProperty OPEN = BlockStateProperties.OPEN;
-    public static final IntegerProperty COLUMN = IntegerProperty.create("column", 0, 4);
-    public static final IntegerProperty ROW = IntegerProperty.create("row", 0, 2);
-    public static final IntegerProperty DEPTH = IntegerProperty.create("depth", 0, 2);
+    public static final IntegerProperty COLUMN = IntegerProperty.create("column", 0, 5);
+    public static final IntegerProperty ROW = IntegerProperty.create("row", 0, 3);
+    public static final IntegerProperty DEPTH = IntegerProperty.create("depth", 0, 3);
 
     public SchoolGateBlock(Properties properties) {
         super(properties);
@@ -67,7 +67,7 @@ public class SchoolGateBlock extends Block {
 
     private static boolean occupied(int column, int depth, boolean open) {
         // Keep the original plane as empty controller cells while the leaves are open.
-        return depth == 0 || (open && (column == 0 || column == 4));
+        return depth == 0 || (open && (column == 0 || column == 5));
     }
 
     @Override
@@ -77,8 +77,8 @@ public class SchoolGateBlock extends Block {
         Direction facing = context.getHorizontalDirection().getOpposite();
         Player player = context.getPlayer();
         BlockState base = defaultBlockState().setValue(FACING, facing);
-        for (int row = 0; row < 3; row++) {
-            for (int column = 0; column < 5; column++) {
+        for (int row = 0; row < 4; row++) {
+            for (int column = 0; column < 6; column++) {
                 BlockPos target = cell(origin, facing, column, row, 0);
                 BlockState part = base.setValue(COLUMN, column).setValue(ROW, row);
                 if (!level.hasChunkAt(target) || level.isOutsideBuildHeight(target)
@@ -92,7 +92,7 @@ public class SchoolGateBlock extends Block {
     }
 
     private static boolean supported(LevelReader level, BlockPos origin, Direction facing) {
-        for (int column : new int[]{0, 4}) {
+        for (int column : new int[]{0, 5}) {
             BlockPos below = cell(origin, facing, column, 0, 0).below();
             if (!level.getBlockState(below).isFaceSturdy(level, below, Direction.UP)) return false;
         }
@@ -103,8 +103,8 @@ public class SchoolGateBlock extends Block {
     public void setPlacedBy(Level level, BlockPos pos, BlockState state, LivingEntity placer, ItemStack stack) {
         super.setPlacedBy(level, pos, state, placer, stack);
         if (level.isClientSide()) return;
-        for (int row = 0; row < 3; row++) {
-            for (int column = 0; column < 5; column++) {
+        for (int row = 0; row < 4; row++) {
+            for (int column = 0; column < 6; column++) {
                 if (column == 2 && row == 0) continue;
                 level.setBlock(cell(pos, state.getValue(FACING), column, row, 0),
                         state.setValue(COLUMN, column).setValue(ROW, row), Block.UPDATE_CLIENTS);
@@ -124,9 +124,9 @@ public class SchoolGateBlock extends Block {
         if (!matches(controller, facing, 2, 0, 0)) return InteractionResult.PASS;
         boolean open = !controller.getValue(OPEN);
         // Validate the entire operation before moving either leaf. A blocked swing changes nothing.
-        for (int depth = 0; depth < 3; depth++) {
-            for (int row = 0; row < 3; row++) {
-                for (int column = 0; column < 5; column++) {
+        for (int depth = 0; depth < 4; depth++) {
+            for (int row = 0; row < 4; row++) {
+                for (int column = 0; column < 6; column++) {
                     if (!occupied(column, depth, open || controller.getValue(OPEN))) continue;
                     BlockPos target = cell(origin, facing, column, row, depth);
                     if (!level.hasChunkAt(target) || level.isOutsideBuildHeight(target)
@@ -145,9 +145,9 @@ public class SchoolGateBlock extends Block {
                 }
             }
         }
-        for (int depth = 0; depth < 3; depth++) {
-            for (int row = 0; row < 3; row++) {
-                for (int column = 0; column < 5; column++) {
+        for (int depth = 0; depth < 4; depth++) {
+            for (int row = 0; row < 4; row++) {
+                for (int column = 0; column < 6; column++) {
                     if (!occupied(column, depth, open || controller.getValue(OPEN))) continue;
                     BlockState next = occupied(column, depth, open)
                             ? controller.setValue(OPEN, open).setValue(COLUMN, column).setValue(ROW, row).setValue(DEPTH, depth)
@@ -164,10 +164,10 @@ public class SchoolGateBlock extends Block {
     }
 
     private void notifyCells(Level level, BlockPos origin, Direction facing) {
-        for (int depth = 0; depth < 3; depth++) {
-            for (int row = 0; row < 3; row++) {
-                for (int column = 0; column < 5; column++) {
-                    if (depth != 0 && column != 0 && column != 4) continue;
+        for (int depth = 0; depth < 4; depth++) {
+            for (int row = 0; row < 4; row++) {
+                for (int column = 0; column < 6; column++) {
+                    if (depth != 0 && column != 0 && column != 5) continue;
                     BlockPos target = cell(origin, facing, column, row, depth);
                     if (level.hasChunkAt(target)) level.updateNeighborsAt(target, this);
                 }
@@ -188,11 +188,14 @@ public class SchoolGateBlock extends Block {
         if (!occupied(column, depth, state.getValue(OPEN))) return Shapes.empty();
         double x1 = 0, z1 = 7, x2 = 16, z2 = 9;
         if (state.getValue(OPEN)) {
-            if (column != 0 && column != 4) return Shapes.empty();
+            if (column != 0 && column != 5) return Shapes.empty();
             x1 = column == 0 ? 0 : 14;
             x2 = x1 + 2;
             z1 = depth == 0 ? 8 : 0;
-            z2 = 16;
+            z2 = depth == 3 ? 8 : 16;
+        } else {
+            if (column == 2) x2 = 15.875;
+            if (column == 3) x1 = 0.125;
         }
         return switch (state.getValue(FACING)) {
             case EAST -> Block.box(16-z2, 0, x1, 16-z1, 16, x2);
@@ -214,9 +217,9 @@ public class SchoolGateBlock extends Block {
         BlockPos origin = origin(pos, state);
         Direction facing = state.getValue(FACING);
         boolean complete = true;
-        for (int depth = 0; depth < 3; depth++) {
-            for (int row = 0; row < 3; row++) {
-                for (int column = 0; column < 5; column++) {
+        for (int depth = 0; depth < 4; depth++) {
+            for (int row = 0; row < 4; row++) {
+                for (int column = 0; column < 6; column++) {
                     if (!occupied(column, depth, state.getValue(OPEN))) continue;
                     BlockPos target = cell(origin, facing, column, row, depth);
                     if (!level.hasChunkAt(target)) {
@@ -236,9 +239,9 @@ public class SchoolGateBlock extends Block {
         if (!origin.equals(mined) && matches(level.getBlockState(origin), facing, 2, 0, 0)) {
             level.destroyBlock(origin, drop);
         }
-        for (int depth = 0; depth < 3; depth++) {
-            for (int row = 0; row < 3; row++) {
-                for (int column = 0; column < 5; column++) {
+        for (int depth = 0; depth < 4; depth++) {
+            for (int row = 0; row < 4; row++) {
+                for (int column = 0; column < 6; column++) {
                     BlockPos target = cell(origin, facing, column, row, depth);
                     if (target.equals(mined)) continue;
                     if (level.hasChunkAt(target) && matches(level.getBlockState(target), facing, column, row, depth)) {
@@ -267,7 +270,7 @@ public class SchoolGateBlock extends Block {
         Direction reflected = mirror.mirror(facing);
         Direction right = facing.getClockWise();
         int column = mirror.mirror(right) == reflected.getClockWise()
-                ? state.getValue(COLUMN) : 4 - state.getValue(COLUMN);
+                ? state.getValue(COLUMN) : 5 - state.getValue(COLUMN);
         return state.setValue(FACING, reflected).setValue(COLUMN, column);
     }
 }

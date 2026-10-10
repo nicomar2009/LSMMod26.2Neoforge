@@ -12,6 +12,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
+    "column=0,depth=3,facing=north,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
     "column=0,depth=0,facing=north,open=false,row=1": {
       "model": "lsmmod:block/school_gate_closed_0_1",
       "y": 0
@@ -21,6 +25,10 @@
       "y": 0
     },
     "column=0,depth=2,facing=north,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=0,depth=3,facing=north,open=false,row=1": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
@@ -36,6 +44,26 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
+    "column=0,depth=3,facing=north,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=0,depth=0,facing=north,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_0_3",
+      "y": 0
+    },
+    "column=0,depth=1,facing=north,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=0,depth=2,facing=north,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=0,depth=3,facing=north,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
     "column=1,depth=0,facing=north,open=false,row=0": {
       "model": "lsmmod:block/school_gate_closed_1_0",
       "y": 0
@@ -45,6 +73,10 @@
       "y": 0
     },
     "column=1,depth=2,facing=north,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=1,depth=3,facing=north,open=false,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
@@ -60,6 +92,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
+    "column=1,depth=3,facing=north,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
     "column=1,depth=0,facing=north,open=false,row=2": {
       "model": "lsmmod:block/school_gate_closed_1_2",
       "y": 0
@@ -69,6 +105,26 @@
       "y": 0
     },
     "column=1,depth=2,facing=north,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=1,depth=3,facing=north,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=1,depth=0,facing=north,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_1_3",
+      "y": 0
+    },
+    "column=1,depth=1,facing=north,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=1,depth=2,facing=north,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=1,depth=3,facing=north,open=false,row=3": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
@@ -84,6 +140,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
+    "column=2,depth=3,facing=north,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
     "column=2,depth=0,facing=north,open=false,row=1": {
       "model": "lsmmod:block/school_gate_closed_2_1",
       "y": 0
@@ -93,6 +153,10 @@
       "y": 0
     },
     "column=2,depth=2,facing=north,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=2,depth=3,facing=north,open=false,row=1": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
@@ -108,6 +172,26 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
+    "column=2,depth=3,facing=north,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=2,depth=0,facing=north,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_2_3",
+      "y": 0
+    },
+    "column=2,depth=1,facing=north,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=2,depth=2,facing=north,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=2,depth=3,facing=north,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
     "column=3,depth=0,facing=north,open=false,row=0": {
       "model": "lsmmod:block/school_gate_closed_3_0",
       "y": 0
@@ -117,6 +201,10 @@
       "y": 0
     },
     "column=3,depth=2,facing=north,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=3,depth=3,facing=north,open=false,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
@@ -132,6 +220,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
+    "column=3,depth=3,facing=north,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
     "column=3,depth=0,facing=north,open=false,row=2": {
       "model": "lsmmod:block/school_gate_closed_3_2",
       "y": 0
@@ -141,6 +233,26 @@
       "y": 0
     },
     "column=3,depth=2,facing=north,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=3,depth=3,facing=north,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=3,depth=0,facing=north,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_3_3",
+      "y": 0
+    },
+    "column=3,depth=1,facing=north,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=3,depth=2,facing=north,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=3,depth=3,facing=north,open=false,row=3": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
@@ -156,6 +268,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
+    "column=4,depth=3,facing=north,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
     "column=4,depth=0,facing=north,open=false,row=1": {
       "model": "lsmmod:block/school_gate_closed_4_1",
       "y": 0
@@ -165,6 +281,10 @@
       "y": 0
     },
     "column=4,depth=2,facing=north,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=4,depth=3,facing=north,open=false,row=1": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
@@ -180,6 +300,90 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
+    "column=4,depth=3,facing=north,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=4,depth=0,facing=north,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_4_3",
+      "y": 0
+    },
+    "column=4,depth=1,facing=north,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=4,depth=2,facing=north,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=4,depth=3,facing=north,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=5,depth=0,facing=north,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_closed_5_0",
+      "y": 0
+    },
+    "column=5,depth=1,facing=north,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=5,depth=2,facing=north,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=5,depth=3,facing=north,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=5,depth=0,facing=north,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_closed_5_1",
+      "y": 0
+    },
+    "column=5,depth=1,facing=north,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=5,depth=2,facing=north,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=5,depth=3,facing=north,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=5,depth=0,facing=north,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_closed_5_2",
+      "y": 0
+    },
+    "column=5,depth=1,facing=north,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=5,depth=2,facing=north,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=5,depth=3,facing=north,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=5,depth=0,facing=north,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_5_3",
+      "y": 0
+    },
+    "column=5,depth=1,facing=north,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=5,depth=2,facing=north,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=5,depth=3,facing=north,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
     "column=0,depth=0,facing=north,open=true,row=0": {
       "model": "lsmmod:block/school_gate_open_0_0_0",
       "y": 0
@@ -190,6 +394,10 @@
     },
     "column=0,depth=2,facing=north,open=true,row=0": {
       "model": "lsmmod:block/school_gate_open_0_0_2",
+      "y": 0
+    },
+    "column=0,depth=3,facing=north,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_open_0_0_3",
       "y": 0
     },
     "column=0,depth=0,facing=north,open=true,row=1": {
@@ -204,6 +412,10 @@
       "model": "lsmmod:block/school_gate_open_0_1_2",
       "y": 0
     },
+    "column=0,depth=3,facing=north,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_open_0_1_3",
+      "y": 0
+    },
     "column=0,depth=0,facing=north,open=true,row=2": {
       "model": "lsmmod:block/school_gate_open_0_2_0",
       "y": 0
@@ -216,6 +428,26 @@
       "model": "lsmmod:block/school_gate_open_0_2_2",
       "y": 0
     },
+    "column=0,depth=3,facing=north,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_open_0_2_3",
+      "y": 0
+    },
+    "column=0,depth=0,facing=north,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_0_3_0",
+      "y": 0
+    },
+    "column=0,depth=1,facing=north,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_0_3_1",
+      "y": 0
+    },
+    "column=0,depth=2,facing=north,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_0_3_2",
+      "y": 0
+    },
+    "column=0,depth=3,facing=north,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_0_3_3",
+      "y": 0
+    },
     "column=1,depth=0,facing=north,open=true,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
@@ -225,6 +457,10 @@
       "y": 0
     },
     "column=1,depth=2,facing=north,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=1,depth=3,facing=north,open=true,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
@@ -240,6 +476,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
+    "column=1,depth=3,facing=north,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
     "column=1,depth=0,facing=north,open=true,row=2": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
@@ -249,6 +489,26 @@
       "y": 0
     },
     "column=1,depth=2,facing=north,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=1,depth=3,facing=north,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=1,depth=0,facing=north,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=1,depth=1,facing=north,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=1,depth=2,facing=north,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=1,depth=3,facing=north,open=true,row=3": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
@@ -264,6 +524,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
+    "column=2,depth=3,facing=north,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
     "column=2,depth=0,facing=north,open=true,row=1": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
@@ -273,6 +537,10 @@
       "y": 0
     },
     "column=2,depth=2,facing=north,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=2,depth=3,facing=north,open=true,row=1": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
@@ -288,6 +556,26 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
+    "column=2,depth=3,facing=north,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=2,depth=0,facing=north,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=2,depth=1,facing=north,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=2,depth=2,facing=north,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=2,depth=3,facing=north,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
     "column=3,depth=0,facing=north,open=true,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
@@ -297,6 +585,10 @@
       "y": 0
     },
     "column=3,depth=2,facing=north,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=3,depth=3,facing=north,open=true,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
@@ -312,6 +604,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
+    "column=3,depth=3,facing=north,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
     "column=3,depth=0,facing=north,open=true,row=2": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
@@ -324,40 +620,152 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
+    "column=3,depth=3,facing=north,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=3,depth=0,facing=north,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=3,depth=1,facing=north,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=3,depth=2,facing=north,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=3,depth=3,facing=north,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
     "column=4,depth=0,facing=north,open=true,row=0": {
-      "model": "lsmmod:block/school_gate_open_4_0_0",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
     "column=4,depth=1,facing=north,open=true,row=0": {
-      "model": "lsmmod:block/school_gate_open_4_0_1",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
     "column=4,depth=2,facing=north,open=true,row=0": {
-      "model": "lsmmod:block/school_gate_open_4_0_2",
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=4,depth=3,facing=north,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
     "column=4,depth=0,facing=north,open=true,row=1": {
-      "model": "lsmmod:block/school_gate_open_4_1_0",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
     "column=4,depth=1,facing=north,open=true,row=1": {
-      "model": "lsmmod:block/school_gate_open_4_1_1",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
     "column=4,depth=2,facing=north,open=true,row=1": {
-      "model": "lsmmod:block/school_gate_open_4_1_2",
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=4,depth=3,facing=north,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
     "column=4,depth=0,facing=north,open=true,row=2": {
-      "model": "lsmmod:block/school_gate_open_4_2_0",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
     "column=4,depth=1,facing=north,open=true,row=2": {
-      "model": "lsmmod:block/school_gate_open_4_2_1",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 0
     },
     "column=4,depth=2,facing=north,open=true,row=2": {
-      "model": "lsmmod:block/school_gate_open_4_2_2",
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=4,depth=3,facing=north,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=4,depth=0,facing=north,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=4,depth=1,facing=north,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=4,depth=2,facing=north,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=4,depth=3,facing=north,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 0
+    },
+    "column=5,depth=0,facing=north,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_open_5_0_0",
+      "y": 0
+    },
+    "column=5,depth=1,facing=north,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_open_5_0_1",
+      "y": 0
+    },
+    "column=5,depth=2,facing=north,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_open_5_0_2",
+      "y": 0
+    },
+    "column=5,depth=3,facing=north,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_open_5_0_3",
+      "y": 0
+    },
+    "column=5,depth=0,facing=north,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_open_5_1_0",
+      "y": 0
+    },
+    "column=5,depth=1,facing=north,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_open_5_1_1",
+      "y": 0
+    },
+    "column=5,depth=2,facing=north,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_open_5_1_2",
+      "y": 0
+    },
+    "column=5,depth=3,facing=north,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_open_5_1_3",
+      "y": 0
+    },
+    "column=5,depth=0,facing=north,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_open_5_2_0",
+      "y": 0
+    },
+    "column=5,depth=1,facing=north,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_open_5_2_1",
+      "y": 0
+    },
+    "column=5,depth=2,facing=north,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_open_5_2_2",
+      "y": 0
+    },
+    "column=5,depth=3,facing=north,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_open_5_2_3",
+      "y": 0
+    },
+    "column=5,depth=0,facing=north,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_5_3_0",
+      "y": 0
+    },
+    "column=5,depth=1,facing=north,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_5_3_1",
+      "y": 0
+    },
+    "column=5,depth=2,facing=north,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_5_3_2",
+      "y": 0
+    },
+    "column=5,depth=3,facing=north,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_5_3_3",
       "y": 0
     },
     "column=0,depth=0,facing=east,open=false,row=0": {
@@ -369,6 +777,10 @@
       "y": 90
     },
     "column=0,depth=2,facing=east,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=0,depth=3,facing=east,open=false,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
@@ -384,6 +796,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
+    "column=0,depth=3,facing=east,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
     "column=0,depth=0,facing=east,open=false,row=2": {
       "model": "lsmmod:block/school_gate_closed_0_2",
       "y": 90
@@ -393,6 +809,26 @@
       "y": 90
     },
     "column=0,depth=2,facing=east,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=0,depth=3,facing=east,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=0,depth=0,facing=east,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_0_3",
+      "y": 90
+    },
+    "column=0,depth=1,facing=east,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=0,depth=2,facing=east,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=0,depth=3,facing=east,open=false,row=3": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
@@ -408,6 +844,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
+    "column=1,depth=3,facing=east,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
     "column=1,depth=0,facing=east,open=false,row=1": {
       "model": "lsmmod:block/school_gate_closed_1_1",
       "y": 90
@@ -417,6 +857,10 @@
       "y": 90
     },
     "column=1,depth=2,facing=east,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=1,depth=3,facing=east,open=false,row=1": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
@@ -432,6 +876,26 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
+    "column=1,depth=3,facing=east,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=1,depth=0,facing=east,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_1_3",
+      "y": 90
+    },
+    "column=1,depth=1,facing=east,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=1,depth=2,facing=east,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=1,depth=3,facing=east,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
     "column=2,depth=0,facing=east,open=false,row=0": {
       "model": "lsmmod:block/school_gate_closed_2_0",
       "y": 90
@@ -441,6 +905,10 @@
       "y": 90
     },
     "column=2,depth=2,facing=east,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=2,depth=3,facing=east,open=false,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
@@ -456,6 +924,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
+    "column=2,depth=3,facing=east,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
     "column=2,depth=0,facing=east,open=false,row=2": {
       "model": "lsmmod:block/school_gate_closed_2_2",
       "y": 90
@@ -465,6 +937,26 @@
       "y": 90
     },
     "column=2,depth=2,facing=east,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=2,depth=3,facing=east,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=2,depth=0,facing=east,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_2_3",
+      "y": 90
+    },
+    "column=2,depth=1,facing=east,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=2,depth=2,facing=east,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=2,depth=3,facing=east,open=false,row=3": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
@@ -480,6 +972,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
+    "column=3,depth=3,facing=east,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
     "column=3,depth=0,facing=east,open=false,row=1": {
       "model": "lsmmod:block/school_gate_closed_3_1",
       "y": 90
@@ -489,6 +985,10 @@
       "y": 90
     },
     "column=3,depth=2,facing=east,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=3,depth=3,facing=east,open=false,row=1": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
@@ -504,6 +1004,26 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
+    "column=3,depth=3,facing=east,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=3,depth=0,facing=east,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_3_3",
+      "y": 90
+    },
+    "column=3,depth=1,facing=east,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=3,depth=2,facing=east,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=3,depth=3,facing=east,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
     "column=4,depth=0,facing=east,open=false,row=0": {
       "model": "lsmmod:block/school_gate_closed_4_0",
       "y": 90
@@ -513,6 +1033,10 @@
       "y": 90
     },
     "column=4,depth=2,facing=east,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=4,depth=3,facing=east,open=false,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
@@ -528,6 +1052,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
+    "column=4,depth=3,facing=east,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
     "column=4,depth=0,facing=east,open=false,row=2": {
       "model": "lsmmod:block/school_gate_closed_4_2",
       "y": 90
@@ -537,6 +1065,90 @@
       "y": 90
     },
     "column=4,depth=2,facing=east,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=4,depth=3,facing=east,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=4,depth=0,facing=east,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_4_3",
+      "y": 90
+    },
+    "column=4,depth=1,facing=east,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=4,depth=2,facing=east,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=4,depth=3,facing=east,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=5,depth=0,facing=east,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_closed_5_0",
+      "y": 90
+    },
+    "column=5,depth=1,facing=east,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=5,depth=2,facing=east,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=5,depth=3,facing=east,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=5,depth=0,facing=east,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_closed_5_1",
+      "y": 90
+    },
+    "column=5,depth=1,facing=east,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=5,depth=2,facing=east,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=5,depth=3,facing=east,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=5,depth=0,facing=east,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_closed_5_2",
+      "y": 90
+    },
+    "column=5,depth=1,facing=east,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=5,depth=2,facing=east,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=5,depth=3,facing=east,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=5,depth=0,facing=east,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_5_3",
+      "y": 90
+    },
+    "column=5,depth=1,facing=east,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=5,depth=2,facing=east,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=5,depth=3,facing=east,open=false,row=3": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
@@ -552,6 +1164,10 @@
       "model": "lsmmod:block/school_gate_open_0_0_2",
       "y": 90
     },
+    "column=0,depth=3,facing=east,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_open_0_0_3",
+      "y": 90
+    },
     "column=0,depth=0,facing=east,open=true,row=1": {
       "model": "lsmmod:block/school_gate_open_0_1_0",
       "y": 90
@@ -562,6 +1178,10 @@
     },
     "column=0,depth=2,facing=east,open=true,row=1": {
       "model": "lsmmod:block/school_gate_open_0_1_2",
+      "y": 90
+    },
+    "column=0,depth=3,facing=east,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_open_0_1_3",
       "y": 90
     },
     "column=0,depth=0,facing=east,open=true,row=2": {
@@ -576,6 +1196,26 @@
       "model": "lsmmod:block/school_gate_open_0_2_2",
       "y": 90
     },
+    "column=0,depth=3,facing=east,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_open_0_2_3",
+      "y": 90
+    },
+    "column=0,depth=0,facing=east,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_0_3_0",
+      "y": 90
+    },
+    "column=0,depth=1,facing=east,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_0_3_1",
+      "y": 90
+    },
+    "column=0,depth=2,facing=east,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_0_3_2",
+      "y": 90
+    },
+    "column=0,depth=3,facing=east,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_0_3_3",
+      "y": 90
+    },
     "column=1,depth=0,facing=east,open=true,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
@@ -585,6 +1225,10 @@
       "y": 90
     },
     "column=1,depth=2,facing=east,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=1,depth=3,facing=east,open=true,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
@@ -600,6 +1244,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
+    "column=1,depth=3,facing=east,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
     "column=1,depth=0,facing=east,open=true,row=2": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
@@ -609,6 +1257,26 @@
       "y": 90
     },
     "column=1,depth=2,facing=east,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=1,depth=3,facing=east,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=1,depth=0,facing=east,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=1,depth=1,facing=east,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=1,depth=2,facing=east,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=1,depth=3,facing=east,open=true,row=3": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
@@ -624,6 +1292,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
+    "column=2,depth=3,facing=east,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
     "column=2,depth=0,facing=east,open=true,row=1": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
@@ -633,6 +1305,10 @@
       "y": 90
     },
     "column=2,depth=2,facing=east,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=2,depth=3,facing=east,open=true,row=1": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
@@ -648,6 +1324,26 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
+    "column=2,depth=3,facing=east,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=2,depth=0,facing=east,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=2,depth=1,facing=east,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=2,depth=2,facing=east,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=2,depth=3,facing=east,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
     "column=3,depth=0,facing=east,open=true,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
@@ -657,6 +1353,10 @@
       "y": 90
     },
     "column=3,depth=2,facing=east,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=3,depth=3,facing=east,open=true,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
@@ -672,6 +1372,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
+    "column=3,depth=3,facing=east,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
     "column=3,depth=0,facing=east,open=true,row=2": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
@@ -684,40 +1388,152 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
+    "column=3,depth=3,facing=east,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=3,depth=0,facing=east,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=3,depth=1,facing=east,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=3,depth=2,facing=east,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=3,depth=3,facing=east,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
     "column=4,depth=0,facing=east,open=true,row=0": {
-      "model": "lsmmod:block/school_gate_open_4_0_0",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
     "column=4,depth=1,facing=east,open=true,row=0": {
-      "model": "lsmmod:block/school_gate_open_4_0_1",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
     "column=4,depth=2,facing=east,open=true,row=0": {
-      "model": "lsmmod:block/school_gate_open_4_0_2",
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=4,depth=3,facing=east,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
     "column=4,depth=0,facing=east,open=true,row=1": {
-      "model": "lsmmod:block/school_gate_open_4_1_0",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
     "column=4,depth=1,facing=east,open=true,row=1": {
-      "model": "lsmmod:block/school_gate_open_4_1_1",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
     "column=4,depth=2,facing=east,open=true,row=1": {
-      "model": "lsmmod:block/school_gate_open_4_1_2",
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=4,depth=3,facing=east,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
     "column=4,depth=0,facing=east,open=true,row=2": {
-      "model": "lsmmod:block/school_gate_open_4_2_0",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
     "column=4,depth=1,facing=east,open=true,row=2": {
-      "model": "lsmmod:block/school_gate_open_4_2_1",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 90
     },
     "column=4,depth=2,facing=east,open=true,row=2": {
-      "model": "lsmmod:block/school_gate_open_4_2_2",
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=4,depth=3,facing=east,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=4,depth=0,facing=east,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=4,depth=1,facing=east,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=4,depth=2,facing=east,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=4,depth=3,facing=east,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 90
+    },
+    "column=5,depth=0,facing=east,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_open_5_0_0",
+      "y": 90
+    },
+    "column=5,depth=1,facing=east,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_open_5_0_1",
+      "y": 90
+    },
+    "column=5,depth=2,facing=east,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_open_5_0_2",
+      "y": 90
+    },
+    "column=5,depth=3,facing=east,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_open_5_0_3",
+      "y": 90
+    },
+    "column=5,depth=0,facing=east,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_open_5_1_0",
+      "y": 90
+    },
+    "column=5,depth=1,facing=east,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_open_5_1_1",
+      "y": 90
+    },
+    "column=5,depth=2,facing=east,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_open_5_1_2",
+      "y": 90
+    },
+    "column=5,depth=3,facing=east,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_open_5_1_3",
+      "y": 90
+    },
+    "column=5,depth=0,facing=east,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_open_5_2_0",
+      "y": 90
+    },
+    "column=5,depth=1,facing=east,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_open_5_2_1",
+      "y": 90
+    },
+    "column=5,depth=2,facing=east,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_open_5_2_2",
+      "y": 90
+    },
+    "column=5,depth=3,facing=east,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_open_5_2_3",
+      "y": 90
+    },
+    "column=5,depth=0,facing=east,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_5_3_0",
+      "y": 90
+    },
+    "column=5,depth=1,facing=east,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_5_3_1",
+      "y": 90
+    },
+    "column=5,depth=2,facing=east,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_5_3_2",
+      "y": 90
+    },
+    "column=5,depth=3,facing=east,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_5_3_3",
       "y": 90
     },
     "column=0,depth=0,facing=south,open=false,row=0": {
@@ -729,6 +1545,10 @@
       "y": 180
     },
     "column=0,depth=2,facing=south,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=0,depth=3,facing=south,open=false,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
@@ -744,6 +1564,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
+    "column=0,depth=3,facing=south,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
     "column=0,depth=0,facing=south,open=false,row=2": {
       "model": "lsmmod:block/school_gate_closed_0_2",
       "y": 180
@@ -753,6 +1577,26 @@
       "y": 180
     },
     "column=0,depth=2,facing=south,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=0,depth=3,facing=south,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=0,depth=0,facing=south,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_0_3",
+      "y": 180
+    },
+    "column=0,depth=1,facing=south,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=0,depth=2,facing=south,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=0,depth=3,facing=south,open=false,row=3": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
@@ -768,6 +1612,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
+    "column=1,depth=3,facing=south,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
     "column=1,depth=0,facing=south,open=false,row=1": {
       "model": "lsmmod:block/school_gate_closed_1_1",
       "y": 180
@@ -777,6 +1625,10 @@
       "y": 180
     },
     "column=1,depth=2,facing=south,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=1,depth=3,facing=south,open=false,row=1": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
@@ -792,6 +1644,26 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
+    "column=1,depth=3,facing=south,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=1,depth=0,facing=south,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_1_3",
+      "y": 180
+    },
+    "column=1,depth=1,facing=south,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=1,depth=2,facing=south,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=1,depth=3,facing=south,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
     "column=2,depth=0,facing=south,open=false,row=0": {
       "model": "lsmmod:block/school_gate_closed_2_0",
       "y": 180
@@ -801,6 +1673,10 @@
       "y": 180
     },
     "column=2,depth=2,facing=south,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=2,depth=3,facing=south,open=false,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
@@ -816,6 +1692,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
+    "column=2,depth=3,facing=south,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
     "column=2,depth=0,facing=south,open=false,row=2": {
       "model": "lsmmod:block/school_gate_closed_2_2",
       "y": 180
@@ -825,6 +1705,26 @@
       "y": 180
     },
     "column=2,depth=2,facing=south,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=2,depth=3,facing=south,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=2,depth=0,facing=south,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_2_3",
+      "y": 180
+    },
+    "column=2,depth=1,facing=south,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=2,depth=2,facing=south,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=2,depth=3,facing=south,open=false,row=3": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
@@ -840,6 +1740,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
+    "column=3,depth=3,facing=south,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
     "column=3,depth=0,facing=south,open=false,row=1": {
       "model": "lsmmod:block/school_gate_closed_3_1",
       "y": 180
@@ -849,6 +1753,10 @@
       "y": 180
     },
     "column=3,depth=2,facing=south,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=3,depth=3,facing=south,open=false,row=1": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
@@ -864,6 +1772,26 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
+    "column=3,depth=3,facing=south,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=3,depth=0,facing=south,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_3_3",
+      "y": 180
+    },
+    "column=3,depth=1,facing=south,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=3,depth=2,facing=south,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=3,depth=3,facing=south,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
     "column=4,depth=0,facing=south,open=false,row=0": {
       "model": "lsmmod:block/school_gate_closed_4_0",
       "y": 180
@@ -873,6 +1801,10 @@
       "y": 180
     },
     "column=4,depth=2,facing=south,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=4,depth=3,facing=south,open=false,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
@@ -888,6 +1820,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
+    "column=4,depth=3,facing=south,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
     "column=4,depth=0,facing=south,open=false,row=2": {
       "model": "lsmmod:block/school_gate_closed_4_2",
       "y": 180
@@ -897,6 +1833,90 @@
       "y": 180
     },
     "column=4,depth=2,facing=south,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=4,depth=3,facing=south,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=4,depth=0,facing=south,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_4_3",
+      "y": 180
+    },
+    "column=4,depth=1,facing=south,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=4,depth=2,facing=south,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=4,depth=3,facing=south,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=5,depth=0,facing=south,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_closed_5_0",
+      "y": 180
+    },
+    "column=5,depth=1,facing=south,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=5,depth=2,facing=south,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=5,depth=3,facing=south,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=5,depth=0,facing=south,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_closed_5_1",
+      "y": 180
+    },
+    "column=5,depth=1,facing=south,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=5,depth=2,facing=south,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=5,depth=3,facing=south,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=5,depth=0,facing=south,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_closed_5_2",
+      "y": 180
+    },
+    "column=5,depth=1,facing=south,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=5,depth=2,facing=south,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=5,depth=3,facing=south,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=5,depth=0,facing=south,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_5_3",
+      "y": 180
+    },
+    "column=5,depth=1,facing=south,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=5,depth=2,facing=south,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=5,depth=3,facing=south,open=false,row=3": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
@@ -912,6 +1932,10 @@
       "model": "lsmmod:block/school_gate_open_0_0_2",
       "y": 180
     },
+    "column=0,depth=3,facing=south,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_open_0_0_3",
+      "y": 180
+    },
     "column=0,depth=0,facing=south,open=true,row=1": {
       "model": "lsmmod:block/school_gate_open_0_1_0",
       "y": 180
@@ -922,6 +1946,10 @@
     },
     "column=0,depth=2,facing=south,open=true,row=1": {
       "model": "lsmmod:block/school_gate_open_0_1_2",
+      "y": 180
+    },
+    "column=0,depth=3,facing=south,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_open_0_1_3",
       "y": 180
     },
     "column=0,depth=0,facing=south,open=true,row=2": {
@@ -936,6 +1964,26 @@
       "model": "lsmmod:block/school_gate_open_0_2_2",
       "y": 180
     },
+    "column=0,depth=3,facing=south,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_open_0_2_3",
+      "y": 180
+    },
+    "column=0,depth=0,facing=south,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_0_3_0",
+      "y": 180
+    },
+    "column=0,depth=1,facing=south,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_0_3_1",
+      "y": 180
+    },
+    "column=0,depth=2,facing=south,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_0_3_2",
+      "y": 180
+    },
+    "column=0,depth=3,facing=south,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_0_3_3",
+      "y": 180
+    },
     "column=1,depth=0,facing=south,open=true,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
@@ -945,6 +1993,10 @@
       "y": 180
     },
     "column=1,depth=2,facing=south,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=1,depth=3,facing=south,open=true,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
@@ -960,6 +2012,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
+    "column=1,depth=3,facing=south,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
     "column=1,depth=0,facing=south,open=true,row=2": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
@@ -969,6 +2025,26 @@
       "y": 180
     },
     "column=1,depth=2,facing=south,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=1,depth=3,facing=south,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=1,depth=0,facing=south,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=1,depth=1,facing=south,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=1,depth=2,facing=south,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=1,depth=3,facing=south,open=true,row=3": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
@@ -984,6 +2060,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
+    "column=2,depth=3,facing=south,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
     "column=2,depth=0,facing=south,open=true,row=1": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
@@ -993,6 +2073,10 @@
       "y": 180
     },
     "column=2,depth=2,facing=south,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=2,depth=3,facing=south,open=true,row=1": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
@@ -1008,6 +2092,26 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
+    "column=2,depth=3,facing=south,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=2,depth=0,facing=south,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=2,depth=1,facing=south,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=2,depth=2,facing=south,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=2,depth=3,facing=south,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
     "column=3,depth=0,facing=south,open=true,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
@@ -1017,6 +2121,10 @@
       "y": 180
     },
     "column=3,depth=2,facing=south,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=3,depth=3,facing=south,open=true,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
@@ -1032,6 +2140,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
+    "column=3,depth=3,facing=south,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
     "column=3,depth=0,facing=south,open=true,row=2": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
@@ -1044,40 +2156,152 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
+    "column=3,depth=3,facing=south,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=3,depth=0,facing=south,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=3,depth=1,facing=south,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=3,depth=2,facing=south,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=3,depth=3,facing=south,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
     "column=4,depth=0,facing=south,open=true,row=0": {
-      "model": "lsmmod:block/school_gate_open_4_0_0",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
     "column=4,depth=1,facing=south,open=true,row=0": {
-      "model": "lsmmod:block/school_gate_open_4_0_1",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
     "column=4,depth=2,facing=south,open=true,row=0": {
-      "model": "lsmmod:block/school_gate_open_4_0_2",
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=4,depth=3,facing=south,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
     "column=4,depth=0,facing=south,open=true,row=1": {
-      "model": "lsmmod:block/school_gate_open_4_1_0",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
     "column=4,depth=1,facing=south,open=true,row=1": {
-      "model": "lsmmod:block/school_gate_open_4_1_1",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
     "column=4,depth=2,facing=south,open=true,row=1": {
-      "model": "lsmmod:block/school_gate_open_4_1_2",
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=4,depth=3,facing=south,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
     "column=4,depth=0,facing=south,open=true,row=2": {
-      "model": "lsmmod:block/school_gate_open_4_2_0",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
     "column=4,depth=1,facing=south,open=true,row=2": {
-      "model": "lsmmod:block/school_gate_open_4_2_1",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 180
     },
     "column=4,depth=2,facing=south,open=true,row=2": {
-      "model": "lsmmod:block/school_gate_open_4_2_2",
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=4,depth=3,facing=south,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=4,depth=0,facing=south,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=4,depth=1,facing=south,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=4,depth=2,facing=south,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=4,depth=3,facing=south,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 180
+    },
+    "column=5,depth=0,facing=south,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_open_5_0_0",
+      "y": 180
+    },
+    "column=5,depth=1,facing=south,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_open_5_0_1",
+      "y": 180
+    },
+    "column=5,depth=2,facing=south,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_open_5_0_2",
+      "y": 180
+    },
+    "column=5,depth=3,facing=south,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_open_5_0_3",
+      "y": 180
+    },
+    "column=5,depth=0,facing=south,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_open_5_1_0",
+      "y": 180
+    },
+    "column=5,depth=1,facing=south,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_open_5_1_1",
+      "y": 180
+    },
+    "column=5,depth=2,facing=south,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_open_5_1_2",
+      "y": 180
+    },
+    "column=5,depth=3,facing=south,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_open_5_1_3",
+      "y": 180
+    },
+    "column=5,depth=0,facing=south,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_open_5_2_0",
+      "y": 180
+    },
+    "column=5,depth=1,facing=south,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_open_5_2_1",
+      "y": 180
+    },
+    "column=5,depth=2,facing=south,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_open_5_2_2",
+      "y": 180
+    },
+    "column=5,depth=3,facing=south,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_open_5_2_3",
+      "y": 180
+    },
+    "column=5,depth=0,facing=south,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_5_3_0",
+      "y": 180
+    },
+    "column=5,depth=1,facing=south,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_5_3_1",
+      "y": 180
+    },
+    "column=5,depth=2,facing=south,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_5_3_2",
+      "y": 180
+    },
+    "column=5,depth=3,facing=south,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_5_3_3",
       "y": 180
     },
     "column=0,depth=0,facing=west,open=false,row=0": {
@@ -1089,6 +2313,10 @@
       "y": 270
     },
     "column=0,depth=2,facing=west,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=0,depth=3,facing=west,open=false,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
@@ -1104,6 +2332,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
+    "column=0,depth=3,facing=west,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
     "column=0,depth=0,facing=west,open=false,row=2": {
       "model": "lsmmod:block/school_gate_closed_0_2",
       "y": 270
@@ -1113,6 +2345,26 @@
       "y": 270
     },
     "column=0,depth=2,facing=west,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=0,depth=3,facing=west,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=0,depth=0,facing=west,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_0_3",
+      "y": 270
+    },
+    "column=0,depth=1,facing=west,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=0,depth=2,facing=west,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=0,depth=3,facing=west,open=false,row=3": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
@@ -1128,6 +2380,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
+    "column=1,depth=3,facing=west,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
     "column=1,depth=0,facing=west,open=false,row=1": {
       "model": "lsmmod:block/school_gate_closed_1_1",
       "y": 270
@@ -1137,6 +2393,10 @@
       "y": 270
     },
     "column=1,depth=2,facing=west,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=1,depth=3,facing=west,open=false,row=1": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
@@ -1152,6 +2412,26 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
+    "column=1,depth=3,facing=west,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=1,depth=0,facing=west,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_1_3",
+      "y": 270
+    },
+    "column=1,depth=1,facing=west,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=1,depth=2,facing=west,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=1,depth=3,facing=west,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
     "column=2,depth=0,facing=west,open=false,row=0": {
       "model": "lsmmod:block/school_gate_closed_2_0",
       "y": 270
@@ -1161,6 +2441,10 @@
       "y": 270
     },
     "column=2,depth=2,facing=west,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=2,depth=3,facing=west,open=false,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
@@ -1176,6 +2460,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
+    "column=2,depth=3,facing=west,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
     "column=2,depth=0,facing=west,open=false,row=2": {
       "model": "lsmmod:block/school_gate_closed_2_2",
       "y": 270
@@ -1185,6 +2473,26 @@
       "y": 270
     },
     "column=2,depth=2,facing=west,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=2,depth=3,facing=west,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=2,depth=0,facing=west,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_2_3",
+      "y": 270
+    },
+    "column=2,depth=1,facing=west,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=2,depth=2,facing=west,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=2,depth=3,facing=west,open=false,row=3": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
@@ -1200,6 +2508,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
+    "column=3,depth=3,facing=west,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
     "column=3,depth=0,facing=west,open=false,row=1": {
       "model": "lsmmod:block/school_gate_closed_3_1",
       "y": 270
@@ -1209,6 +2521,10 @@
       "y": 270
     },
     "column=3,depth=2,facing=west,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=3,depth=3,facing=west,open=false,row=1": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
@@ -1224,6 +2540,26 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
+    "column=3,depth=3,facing=west,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=3,depth=0,facing=west,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_3_3",
+      "y": 270
+    },
+    "column=3,depth=1,facing=west,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=3,depth=2,facing=west,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=3,depth=3,facing=west,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
     "column=4,depth=0,facing=west,open=false,row=0": {
       "model": "lsmmod:block/school_gate_closed_4_0",
       "y": 270
@@ -1233,6 +2569,10 @@
       "y": 270
     },
     "column=4,depth=2,facing=west,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=4,depth=3,facing=west,open=false,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
@@ -1248,6 +2588,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
+    "column=4,depth=3,facing=west,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
     "column=4,depth=0,facing=west,open=false,row=2": {
       "model": "lsmmod:block/school_gate_closed_4_2",
       "y": 270
@@ -1257,6 +2601,90 @@
       "y": 270
     },
     "column=4,depth=2,facing=west,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=4,depth=3,facing=west,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=4,depth=0,facing=west,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_4_3",
+      "y": 270
+    },
+    "column=4,depth=1,facing=west,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=4,depth=2,facing=west,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=4,depth=3,facing=west,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=5,depth=0,facing=west,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_closed_5_0",
+      "y": 270
+    },
+    "column=5,depth=1,facing=west,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=5,depth=2,facing=west,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=5,depth=3,facing=west,open=false,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=5,depth=0,facing=west,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_closed_5_1",
+      "y": 270
+    },
+    "column=5,depth=1,facing=west,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=5,depth=2,facing=west,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=5,depth=3,facing=west,open=false,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=5,depth=0,facing=west,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_closed_5_2",
+      "y": 270
+    },
+    "column=5,depth=1,facing=west,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=5,depth=2,facing=west,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=5,depth=3,facing=west,open=false,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=5,depth=0,facing=west,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_closed_5_3",
+      "y": 270
+    },
+    "column=5,depth=1,facing=west,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=5,depth=2,facing=west,open=false,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=5,depth=3,facing=west,open=false,row=3": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
@@ -1272,6 +2700,10 @@
       "model": "lsmmod:block/school_gate_open_0_0_2",
       "y": 270
     },
+    "column=0,depth=3,facing=west,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_open_0_0_3",
+      "y": 270
+    },
     "column=0,depth=0,facing=west,open=true,row=1": {
       "model": "lsmmod:block/school_gate_open_0_1_0",
       "y": 270
@@ -1282,6 +2714,10 @@
     },
     "column=0,depth=2,facing=west,open=true,row=1": {
       "model": "lsmmod:block/school_gate_open_0_1_2",
+      "y": 270
+    },
+    "column=0,depth=3,facing=west,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_open_0_1_3",
       "y": 270
     },
     "column=0,depth=0,facing=west,open=true,row=2": {
@@ -1296,6 +2732,26 @@
       "model": "lsmmod:block/school_gate_open_0_2_2",
       "y": 270
     },
+    "column=0,depth=3,facing=west,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_open_0_2_3",
+      "y": 270
+    },
+    "column=0,depth=0,facing=west,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_0_3_0",
+      "y": 270
+    },
+    "column=0,depth=1,facing=west,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_0_3_1",
+      "y": 270
+    },
+    "column=0,depth=2,facing=west,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_0_3_2",
+      "y": 270
+    },
+    "column=0,depth=3,facing=west,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_0_3_3",
+      "y": 270
+    },
     "column=1,depth=0,facing=west,open=true,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
@@ -1305,6 +2761,10 @@
       "y": 270
     },
     "column=1,depth=2,facing=west,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=1,depth=3,facing=west,open=true,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
@@ -1320,6 +2780,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
+    "column=1,depth=3,facing=west,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
     "column=1,depth=0,facing=west,open=true,row=2": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
@@ -1329,6 +2793,26 @@
       "y": 270
     },
     "column=1,depth=2,facing=west,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=1,depth=3,facing=west,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=1,depth=0,facing=west,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=1,depth=1,facing=west,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=1,depth=2,facing=west,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=1,depth=3,facing=west,open=true,row=3": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
@@ -1344,6 +2828,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
+    "column=2,depth=3,facing=west,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
     "column=2,depth=0,facing=west,open=true,row=1": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
@@ -1353,6 +2841,10 @@
       "y": 270
     },
     "column=2,depth=2,facing=west,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=2,depth=3,facing=west,open=true,row=1": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
@@ -1368,6 +2860,26 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
+    "column=2,depth=3,facing=west,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=2,depth=0,facing=west,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=2,depth=1,facing=west,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=2,depth=2,facing=west,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=2,depth=3,facing=west,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
     "column=3,depth=0,facing=west,open=true,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
@@ -1377,6 +2889,10 @@
       "y": 270
     },
     "column=3,depth=2,facing=west,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=3,depth=3,facing=west,open=true,row=0": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
@@ -1392,6 +2908,10 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
+    "column=3,depth=3,facing=west,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
     "column=3,depth=0,facing=west,open=true,row=2": {
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
@@ -1404,40 +2924,152 @@
       "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
+    "column=3,depth=3,facing=west,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=3,depth=0,facing=west,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=3,depth=1,facing=west,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=3,depth=2,facing=west,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=3,depth=3,facing=west,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
     "column=4,depth=0,facing=west,open=true,row=0": {
-      "model": "lsmmod:block/school_gate_open_4_0_0",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
     "column=4,depth=1,facing=west,open=true,row=0": {
-      "model": "lsmmod:block/school_gate_open_4_0_1",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
     "column=4,depth=2,facing=west,open=true,row=0": {
-      "model": "lsmmod:block/school_gate_open_4_0_2",
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=4,depth=3,facing=west,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
     "column=4,depth=0,facing=west,open=true,row=1": {
-      "model": "lsmmod:block/school_gate_open_4_1_0",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
     "column=4,depth=1,facing=west,open=true,row=1": {
-      "model": "lsmmod:block/school_gate_open_4_1_1",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
     "column=4,depth=2,facing=west,open=true,row=1": {
-      "model": "lsmmod:block/school_gate_open_4_1_2",
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=4,depth=3,facing=west,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
     "column=4,depth=0,facing=west,open=true,row=2": {
-      "model": "lsmmod:block/school_gate_open_4_2_0",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
     "column=4,depth=1,facing=west,open=true,row=2": {
-      "model": "lsmmod:block/school_gate_open_4_2_1",
+      "model": "lsmmod:block/school_gate_empty",
       "y": 270
     },
     "column=4,depth=2,facing=west,open=true,row=2": {
-      "model": "lsmmod:block/school_gate_open_4_2_2",
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=4,depth=3,facing=west,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=4,depth=0,facing=west,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=4,depth=1,facing=west,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=4,depth=2,facing=west,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=4,depth=3,facing=west,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_empty",
+      "y": 270
+    },
+    "column=5,depth=0,facing=west,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_open_5_0_0",
+      "y": 270
+    },
+    "column=5,depth=1,facing=west,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_open_5_0_1",
+      "y": 270
+    },
+    "column=5,depth=2,facing=west,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_open_5_0_2",
+      "y": 270
+    },
+    "column=5,depth=3,facing=west,open=true,row=0": {
+      "model": "lsmmod:block/school_gate_open_5_0_3",
+      "y": 270
+    },
+    "column=5,depth=0,facing=west,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_open_5_1_0",
+      "y": 270
+    },
+    "column=5,depth=1,facing=west,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_open_5_1_1",
+      "y": 270
+    },
+    "column=5,depth=2,facing=west,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_open_5_1_2",
+      "y": 270
+    },
+    "column=5,depth=3,facing=west,open=true,row=1": {
+      "model": "lsmmod:block/school_gate_open_5_1_3",
+      "y": 270
+    },
+    "column=5,depth=0,facing=west,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_open_5_2_0",
+      "y": 270
+    },
+    "column=5,depth=1,facing=west,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_open_5_2_1",
+      "y": 270
+    },
+    "column=5,depth=2,facing=west,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_open_5_2_2",
+      "y": 270
+    },
+    "column=5,depth=3,facing=west,open=true,row=2": {
+      "model": "lsmmod:block/school_gate_open_5_2_3",
+      "y": 270
+    },
+    "column=5,depth=0,facing=west,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_5_3_0",
+      "y": 270
+    },
+    "column=5,depth=1,facing=west,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_5_3_1",
+      "y": 270
+    },
+    "column=5,depth=2,facing=west,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_5_3_2",
+      "y": 270
+    },
+    "column=5,depth=3,facing=west,open=true,row=3": {
+      "model": "lsmmod:block/school_gate_open_5_3_3",
       "y": 270
     }
   }

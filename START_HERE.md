@@ -424,3 +424,6 @@ Todos los docs del plan existen desde la sesión 4. `PLANNED` = se escribe solo 
 
 
 2026-10-10 — school_shield reemplaza el suelo 3×3 por un slab 4×4 de 8 px de alto; 16 piezas colocadas con un ítem, controlador (1,1), retirada conjunta y drop único. 64 estados, dieciséis texturas vanilla 16×16 con classroom_floor, borde dorado y emblema redibujado sin encabezado. Generador/check/preview actualizados; montajes anteriores deben recolocarse. Detalles docs/SCHOOL_SHIELD.md. Verificación estática, sin compilar ni probar Minecraft; publicación autorizada en master.
+
+
+2026-10-10 — school_gate ampliado a 6×4, dos hojas de 3 bloques con unión entre columnas 2/3; 24 celdas cerradas y apertura de 48 px por hoja en cuatro profundidades (8/16/16/8 px). Colisión, límites, apoyos, estados, modelos, texturas e ítem sincronizados; controlador/drop único conservado. Retirados recursos abiertos obsoletos de columna 4. 768 estados y dibujo abierto/cerrado comprobados estáticamente; recolocar portones anteriores. Guía docs/SCHOOL_GATE.md, preview previews/school_gate_6x4.png. Publicación autorizada en master, sin compilar ni probar Minecraft.
