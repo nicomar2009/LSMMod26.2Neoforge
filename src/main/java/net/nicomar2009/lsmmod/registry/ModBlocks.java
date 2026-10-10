@@ -18,6 +18,18 @@ public final class ModBlocks {
 
     // BEGIN SCHOOL RAILING SLOPES
     // BEGIN SCHOOL INVERTED SLOPES
+    // BEGIN SCHOOL SPLIT RAISED EXTRAS
+    public static final DeferredBlock<SchoolInvertedSlopeBlock> SCHOOL_INVERTED_SLOPE_SPLIT_RAISED_EXTRA_1 = BLOCKS.registerBlock(
+            "school_inverted_slope_split_raised_extra_1", props -> new SchoolInvertedSlopeBlock(0.571428571428571,0.714285714285714,0.5,2.0,props),
+            props -> props.strength(1.5F).sound(SoundType.STONE).noOcclusion());
+    public static final DeferredBlock<SchoolInvertedSlopeBlock> SCHOOL_INVERTED_SLOPE_SPLIT_RAISED_EXTRA_2 = BLOCKS.registerBlock(
+            "school_inverted_slope_split_raised_extra_2", props -> new SchoolInvertedSlopeBlock(0.857142857142857,0.714285714285714,0.5,2.0,props),
+            props -> props.strength(1.5F).sound(SoundType.STONE).noOcclusion());
+    public static final DeferredBlock<SchoolInvertedSlopeBlock> SCHOOL_INVERTED_SLOPE_SPLIT_RAISED_EXTRA_3 = BLOCKS.registerBlock(
+            "school_inverted_slope_split_raised_extra_3", props -> new SchoolInvertedSlopeBlock(0.142857142857143,0.714285714285714,0.5,1.0,props),
+            props -> props.strength(1.5F).sound(SoundType.STONE).noOcclusion());
+    // END SCHOOL SPLIT RAISED EXTRAS
+
     // BEGIN SCHOOL RAISED INVERTED SLOPES
     public static final DeferredBlock<SchoolInvertedSlopeBlock> SCHOOL_INVERTED_SLOPE_SPLIT_RAISED_1 = BLOCKS.registerBlock(
             "school_inverted_slope_split_raised_1", props -> new SchoolInvertedSlopeBlock(0,0.714285714285714,0.5,1.0,props),

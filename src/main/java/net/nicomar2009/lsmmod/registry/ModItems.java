@@ -23,6 +23,12 @@ public final class ModItems {
 
     // BEGIN SCHOOL RAILING SLOPES
     // BEGIN SCHOOL INVERTED SLOPES
+    // BEGIN SCHOOL SPLIT RAISED EXTRAS
+    public static final DeferredItem<BlockItem> SCHOOL_INVERTED_SLOPE_SPLIT_RAISED_EXTRA_1 = ITEMS.registerSimpleBlockItem(ModBlocks.SCHOOL_INVERTED_SLOPE_SPLIT_RAISED_EXTRA_1);
+    public static final DeferredItem<BlockItem> SCHOOL_INVERTED_SLOPE_SPLIT_RAISED_EXTRA_2 = ITEMS.registerSimpleBlockItem(ModBlocks.SCHOOL_INVERTED_SLOPE_SPLIT_RAISED_EXTRA_2);
+    public static final DeferredItem<BlockItem> SCHOOL_INVERTED_SLOPE_SPLIT_RAISED_EXTRA_3 = ITEMS.registerSimpleBlockItem(ModBlocks.SCHOOL_INVERTED_SLOPE_SPLIT_RAISED_EXTRA_3);
+    // END SCHOOL SPLIT RAISED EXTRAS
+
     // BEGIN SCHOOL RAISED INVERTED SLOPES
     public static final DeferredItem<BlockItem> SCHOOL_INVERTED_SLOPE_SPLIT_RAISED_1 = ITEMS.registerSimpleBlockItem(ModBlocks.SCHOOL_INVERTED_SLOPE_SPLIT_RAISED_1);
     public static final DeferredItem<BlockItem> SCHOOL_INVERTED_SLOPE_SPLIT_RAISED_2 = ITEMS.registerSimpleBlockItem(ModBlocks.SCHOOL_INVERTED_SLOPE_SPLIT_RAISED_2);

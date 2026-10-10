@@ -48,3 +48,15 @@ En split se aplica el remate por parejas a ambos lados del soporte de tres colum
 Usa la tabla de colocación de las piezas originales: filas 0, -1, -2, -2, -3, -4 para flight; filas 0, -1, -4, -5 en columnas 0, 1, 5, 6 para split. No cambies la altura de colocación para conseguir el desplazamiento: ya está en los modelos. Deja libres las celdas ocupadas por las extensiones hacia arriba. Los ítems y drops son independientes de los originales.
 
 Generador: `tools/create_school_raised_inverted_slopes.py`; verificación: `tools/check_school_raised_inverted_slopes.py`; layout: `tools/school_raised_inverted_slope_layout.json`. Se verifican los 80 estados elevados: tapas, traslación del perfil en las cuatro orientaciones, UV/caras/materiales y colisión. Regresión de las piezas originales y con baranda. Sin compilación ni prueba Minecraft.
+
+## Piezas extra de la zona del soporte
+
+Solo se añaden `school_inverted_slope_split_raised_extra_1..3`; no hay extras sin elevar, con baranda ni de flight. Completan las columnas antes omitidas y mantienen el perfil continuo de 7 columnas y 5 bloques de desnivel, elevado 8 px. Misma orientación hacia el descenso y textura de pared clara.
+
+| Extra | Columna | Fila relativa | Tapa local |
+| --- | --- | --- | --- |
+| 1 | 2 | -2 | 32 px |
+| 2 | 3 | -3 | 32 px |
+| 3 | 4 | -3 | 16 px |
+
+Las tapas alcanzan el siguiente límite entero por encima del inicio inclinado; colisión y modelo coinciden. Cada pieza tiene ítem y drop independiente. Generador: `tools/create_school_split_raised_extras.py`; comprobación: `tools/check_school_split_raised_extras.py`; montaje: `tools/school_split_raised_extra_layout.json`. Se verifican 24 estados nuevos y continuidad con las cuatro piezas existentes. Sin compilar ni probar en Minecraft.

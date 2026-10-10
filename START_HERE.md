@@ -418,3 +418,6 @@ Todos los docs del plan existen desde la sesión 4. `PLANNED` = se escribe solo 
 
 
 2026-10-10 — Ajuste de tapas elevadas: flight_raised 1/4/5 terminan en Y=16 px y 2/3/6 en Y=32 px; perfil inclinado conserva +8 px. Nuevos school_inverted_slope_split_raised_1..4: mismo desplazamiento, tapas Y=16/32/16/32 px por parejas a ambos lados del soporte. Colisión con topHeight independiente del offset, selección simple conservada. Generador/layout/guía actualizados; 80 estados elevados y regresión de originales/barandas verificados estáticamente. Publicación autorizada en master, sin compilar ni probar Minecraft.
+
+
+2026-10-10 — Se completa únicamente school_inverted_slope_split_raised con extra_1..3, columnas 2/3/4, filas -2/-3/-3, tapas 32/32/16 px. Perfil elevado +8 px continuo con las cuatro piezas existentes, pendiente 5/7 por columna, misma pared clara y colisión. Registros/ítems/drops independientes; 24 estados nuevos y regresión de invertidos/elevados comprobados estáticamente. Publicación en master autorizada, sin compilar ni probar Minecraft.
