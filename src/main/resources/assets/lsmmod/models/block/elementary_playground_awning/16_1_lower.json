@@ -1,5 +1,5 @@
 {
-  "parent": "lsmmod:block/awning/16_1_lower",
+  "parent": "lsmmod:block/playground_awning/16_1_lower",
   "textures": {
     "cloth": "lsmmod:block/elementary_playground_awning",
     "particle": "lsmmod:block/elementary_playground_awning"

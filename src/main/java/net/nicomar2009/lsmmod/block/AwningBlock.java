@@ -28,7 +28,7 @@ public class AwningBlock extends Block implements EntityBlock {
     public static final BooleanProperty UPPER = BooleanProperty.create("upper");
     private final String variant;
     public String variant() { return variant; }
-    public AwningBlock(Properties properties) { this(properties, "awning"); }
+    public AwningBlock(Properties properties) { this(properties, "playground_awning"); }
     public AwningBlock(Properties properties, String variant) {
         super(properties);
         this.variant = variant;

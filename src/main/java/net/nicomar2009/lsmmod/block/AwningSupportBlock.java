@@ -73,17 +73,25 @@ public class AwningSupportBlock extends Block implements EntityBlock {
     }
     @Override
     protected VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
-        boolean alongZ = state.getValue(FACING).getAxis() == Direction.Axis.Z;
-        VoxelShape shape = alongZ ? Shapes.or(Block.box(0,10,6,16,16,10),Block.box(6,13,0,10,15,16))
-                : Shapes.or(Block.box(6,10,0,10,16,16),Block.box(0,13,6,16,15,10));
-        int c=state.getValue(COLUMN);
-        for (int edge=0; edge<2; edge++) {
-            if ((edge==0 && c!=0) || (edge==1 && c!=state.getValue(WIDTH)-1)) continue;
-            double low=edge==0 ? 0 : 15, high=low+1;
-            shape=Shapes.or(shape,alongZ ? Block.box(low,9.5,5.5,high,16,10.5)
-                    : Block.box(5.5,9.5,16-high,10.5,16,16-low));
+        return SimpleBlockOutline.forState(state, () -> getCollisionShape(state, level, pos, context));
+    }
+    @Override
+    protected VoxelShape getCollisionShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
+        return state.getValue(FACING).getAxis() == Direction.Axis.Z ? SUPPORT_Z : SUPPORT_X;
+    }
+    private static final VoxelShape SUPPORT_Z = support(true);
+    private static final VoxelShape SUPPORT_X = support(false);
+    private static VoxelShape support(boolean alongZ) {
+        VoxelShape shape = Shapes.empty();
+        for (double x : new double[]{2,7.5,13}) {
+            shape = Shapes.or(shape, alongZ ? Block.box(x,13,0,x+1,14,16)
+                    : Block.box(0,13,x,16,14,x+1));
         }
-        return shape;
+        for (double z : new double[]{0,15}) {
+            shape = Shapes.or(shape, alongZ ? Block.box(0,13,z,16,14,z+1)
+                    : Block.box(z,13,0,z+1,14,16));
+        }
+        return shape.optimize();
     }
     @Override
     public BlockEntity newBlockEntity(BlockPos pos, BlockState state) { return new AwningBlockEntity(pos, state); }

@@ -283,3 +283,6 @@ double_school_entrance: nueva puerta doble independiente de 3×3 bloques (48×48
 
 
 2026-10-10 — school_gate ampliado a 6×4, dos hojas de 3 bloques con unión entre columnas 2/3; 24 celdas cerradas y apertura de 48 px por hoja en cuatro profundidades (8/16/16/8 px). Colisión, límites, apoyos, estados, modelos, texturas e ítem sincronizados; controlador/drop único conservado. Retirados recursos abiertos obsoletos de columna 4. 768 estados y dibujo abierto/cerrado comprobados estáticamente; recolocar portones anteriores. Guía docs/SCHOOL_GATE.md, preview previews/school_gate_6x4.png. Publicación autorizada en master, sin compilar ni probar Minecraft.
+
+
+2026-10-10 — Se eliminan awning base y sus 16 variantes de color, conservando playground_awning, elementary_playground_awning y awning_support. Ambos toldos resuelven geometría compartida sin depender del base eliminado. Soporte rediseñado con cinco varillas 1×1 px a y13..14 (tres longitudinales y dos líneas de anclaje), colisión precalculada y contorno simple; ancho y lógica de instalación conservados. 4624 estados de tela y 1024 de soporte comprobados estáticamente. Guía docs/AWNINGS.md; publicación en master autorizada, sin compilar ni probar Minecraft.

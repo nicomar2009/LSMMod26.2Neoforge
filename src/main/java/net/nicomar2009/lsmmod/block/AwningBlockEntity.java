@@ -13,7 +13,7 @@ public class AwningBlockEntity extends BlockEntity {
     private BlockPos first;
     private BlockPos second;
     private int width = 4; // Old four-wide structures have no saved width.
-    private String variant = "awning";
+    private String variant = "playground_awning";
     public AwningBlock awning() { return net.nicomar2009.lsmmod.registry.ModBlocks.awningVariant(variant); }
     boolean removalHandled;
 
@@ -49,7 +49,7 @@ public class AwningBlockEntity extends BlockEntity {
     @Override
     protected void loadAdditional(ValueInput input) {
         super.loadAdditional(input);
-        variant = input.getStringOr("awning_variant", "awning");
+        variant = input.getStringOr("awning_variant", "playground_awning");
         width = Math.clamp(input.getIntOr("width", 4), 1, 16);
         supportRoot = BlockPos.of(input.getLongOr("support_root", worldPosition.asLong()));
         if (input.getBooleanOr("linked", false)) {
